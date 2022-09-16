@@ -15,6 +15,7 @@ function LoadBuilds2() {
         var B = i+1;
         document.getElementById("Builds2").innerHTML += `
       <a class="lnk" href="Builds/build`+B+`/index.html">Build `+B+`</a>
+      <br>
         `
     }
     }
