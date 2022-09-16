@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OASIS FPS DEMO (PLAY)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Main/Nav.css">
+</head>
+<body>
+
+    <div id="Cont">
+        <h1>OASIS FPS DEMO</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <fieldset>
+            <legend>
+                BUILDS
+            </legend>
+            <div id="Builds2"></div>
+        </fieldset>
+        </div>
+
+
+        <style>
+.lnk {
+    color: white;
+}
+.lnk:hover {
+    color: black;
+    background-color: white;
+}
+
+        </style>
+    <!--START NAV-->
+  <div id="NAV">
+<div class="navbar">
+    <a href="index.html">Oasis FPS demo</a>
+    <a href="news.html">News</a>
+    <a href="play.html">Play</a>
+    <div class="dropdown">
+      <button class="dropbtn">Builds 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="Builds" class="dropdown-content">
+
+      </div>
+    </div> 
+    <a href="credits.html">Credits</a>
+  </div>   
+
+</div>
+<script src="Main/Builds.js"></script>
+<script src="Main/NavBar.js"></script>
+
+<script defer>
+LoadBuilds();
+LoadBuilds2();
+</script>
+<!--END NAV-->
+</body>
+</html>

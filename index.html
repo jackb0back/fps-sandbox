@@ -1,31 +1,83 @@
-<a href="build1.html">BUILD 1</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OASIS FPS DEMO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Main/Nav.css">
+</head>
+<body>
+<div id="Cont">
+<h1>OASIS FPS DEMO</h1>
+<p>A Movement fps game by jackboback</p>
+
+
+
+
+
 <br>
-<a href="build3/index.html">BUILD 2</a>
 <br>
-<a href="build4/index.html">BUILD 3</a>
 <br>
-<a href="build5/index.html">BUILD 5</a>
 <br>
-<a href="build6/index.html">BUILD 6</a>
+<fieldset>
+    <legend>Controls</legend>
+    W,A,S,D to move <br>
+    Mouse to look around <br>
+    0-9 to change guns <br>
+    LeftShift to slide/crouch <br>
+    ~ to spawn a single enemy <br>
+    - to spawn muiltible enemies <br>
+    L for the spawn in menu (0 to use) <br>
+    ESC for main menu <br>
+    T to change loadout <br>
+    V to noclip (with cheats enabled) <br>
+    Q for jetpack <br>
+    E for anti-grav grenade <br>
+    Click to shoot <br>
+    Right Click for slow-mo
+</fieldset>
 <br>
-<a href="Build7/index.html">BUILD 7</a>
-<br>
-<a href="build8/index.html">BUILD 8</a>
-<br>
-<a href="build9/index.html">BUILD 9</a>
-<br>
-<a href="build10/index.html">BUILD 10</a>
-<br>
-<a href="build11/index.html">BUILD 11</a>
-<br>
-<a href="build12/index.html">BUILD 12</a>
-<br>
-<a href="build13/index.html">BUILD 13</a>
-<br>
-<a href="build14/index.html">BUILD 14</a>
-<br>
-<a href="build15/index.html">BUILD 15</a>
-<br>
-<a href="build16/index.html">BUILD 16</a>
-<br>
-<a href="build17/index.html">BUILD 17</a>
+<fieldset>
+    <legend>Guns</legend>
+    <div  style="position: relative; left: 50%; ;transform: translate(-50%); width: fit-content; margin-left: 3%; text-align: left;">
+    1. Pistol  <br>
+    2. Rifle<br>
+    3. Shotgun<br>
+    4. grenade launcher<br>
+    5. for EMP<br>
+    6. for Super Weopon <br>
+    0. for spawn in gun<br>
+</div>
+</fieldset> 
+
+
+
+</div>
+
+    <!--START NAV-->
+  <div id="NAV">
+<div class="navbar">
+    <a href="index.html">Oasis FPS demo</a>
+    <a href="news.html">News</a>
+    <a href="play.html">Play</a>
+    <div class="dropdown">
+      <button class="dropbtn">Builds 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="Builds" class="dropdown-content">
+
+      </div>
+    </div> 
+    <a href="credits.html">Credits</a>
+  </div>   
+
+</div>
+<script src="Main/Builds.js"></script>
+<script src="Main/NavBar.js"></script>
+
+<script defer>LoadBuilds()</script>
+<!--END NAV-->
+</body>
+</html>
