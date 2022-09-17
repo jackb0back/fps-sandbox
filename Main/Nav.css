@@ -10,6 +10,13 @@
   width: 85vw;
   height: 50vh;
 }
+.lnk {
+  color: white;
+}
+.lnk:hover {
+  color: black;
+  background-color: white;
+}
 
 @font-face {
   font-family: 'Conn2';
