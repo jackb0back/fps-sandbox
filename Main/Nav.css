@@ -1,8 +1,14 @@
-
      
      
 #Cont {
   margin-top: 5vh;
+}
+
+.NEWS {
+  border-style: solid;
+  border-color: #333;
+  width: 85vw;
+  height: 50vh;
 }
 
 @font-face {
@@ -80,6 +86,7 @@ body {
    height: 50vh;
    overflow-y: scroll;
   }
+  
   .dropdown-content a {
     float: none;
     color: black;
